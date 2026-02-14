@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>💚 Para Mi Amor 💚</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-gradient-to-b from-green-50 to-green-100 min-h-screen">
+
+    <!-- Desktop Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top bg-white/80 backdrop-blur-md shadow-sm desktop-nav">
+        <div class="container justify-content-center">
+            <ul class="navbar-nav flex-row gap-4 md:gap-8">
+                <li class="nav-item">
+                    <a class="nav-link text-green-700 hover:text-green-500 font-semibold transition-all duration-300 px-3 py-2 rounded-full hover:bg-green-100" href="#inicio">
+                        💚 Inicio
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-green-700 hover:text-green-500 font-semibold transition-all duration-300 px-3 py-2 rounded-full hover:bg-green-100" href="#nosotros">
+                        🌠 Constelaciones
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-green-700 hover:text-green-500 font-semibold transition-all duration-300 px-3 py-2 rounded-full hover:bg-green-100" href="#momentos">
+                        📸 Momentos
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-green-700 hover:text-green-500 font-semibold transition-all duration-300 px-3 py-2 rounded-full hover:bg-green-100" href="#razones">
+                        💝 Razones
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-green-700 hover:text-green-500 font-semibold transition-all duration-300 px-3 py-2 rounded-full hover:bg-green-100" href="#juego">
+                        🎮 Juego
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-green-700 hover:text-green-500 font-semibold transition-all duration-300 px-3 py-2 rounded-full hover:bg-green-100" href="#carta">
+                        💌 Carta
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- Mobile Hamburger Button -->
+    <button id="hamburger-btn" class="hamburger-btn" aria-label="Menu">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+    </button>
+
+    <!-- Mobile Sidebar Overlay -->
+    <div id="sidebar-overlay" class="sidebar-overlay"></div>
+
+    <!-- Mobile Sidebar Menu -->
+    <nav id="sidebar-menu" class="sidebar-menu">
+        <div class="sidebar-header">
+            <span class="font-dancing text-2xl text-green-700">💚 Mi Amor</span>
+            <button id="close-sidebar" class="close-sidebar">&times;</button>
+        </div>
+        <ul class="sidebar-nav">
+            <li><a href="#inicio" class="sidebar-link">💚 Inicio</a></li>
+            <li><a href="#nosotros" class="sidebar-link">💑 Constelaciones</a></li>
+            <li><a href="#momentos" class="sidebar-link">📸 Momentos</a></li>
+            <li><a href="#razones" class="sidebar-link">💝 Razones</a></li>
+            <li><a href="#juego" class="sidebar-link">🎮 Juego</a></li>
+            <li><a href="#carta" class="sidebar-link">💌 Carta</a></li>
+        </ul>
+        <div class="sidebar-footer">
+            <p class="text-green-500 text-sm">Hecho con 💚</p>
+        </div>
+    </nav>
+
+    <!-- Hero Section - Inicio -->
+    <section id="inicio" class="min-h-screen flex items-center justify-center pt-20">
+        <div class="container text-center">
+            <div class="floating-hearts" id="hearts-container"></div>
+            <h1 class="font-dancing text-6xl md:text-8xl text-green-700 mb-4 animate-fade-in">
+                Feliz San Valentín
+            </h1>
+            <h2 class="font-dancing text-3xl md:text-5xl text-green-600 mb-8">
+                Para mi amor María Fernanda 💚
+            </h2>
+            <p class="text-xl text-green-800 max-w-2xl mx-auto leading-relaxed">
+                Esta página está hecha especialmente para ti, para recordarte lo mucho que significas para mí.
+            </p>
+        </div>
+    </section>
+
+    <!-- Nosotros Section -->
+    <!-- Constelaciones Importantes Section -->
+    <section id="nosotros" class="min-h-screen flex items-center py-20 bg-white/50">
+        <div class="container">
+            <h2 class="font-dancing text-5xl text-center text-green-700 mb-12">Constelaciones Importantes ✨</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
+                <div class="momento-card flex flex-col items-center">
+                    <img src="img/noche-mari.png" alt="Noche Mari" class="momento-img w-64 h-64 object-cover rounded-2xl border-4 border-green-200 shadow-lg mb-4">
+                    <p class="text-green-700 text-center">Así se veia el cielo el día que nacio Mari</p>
+                </div>
+                <div class="momento-card flex flex-col items-center">
+                    <img src="img/noche-napo.png" alt="Noche Napo" class="momento-img w-64 h-64 object-cover rounded-2xl border-4 border-green-200 shadow-lg mb-4">
+                    <p class="text-green-700 text-center">Así se veia el cielo el día que nacio Napo</p>
+                </div>
+                <div class="momento-card flex flex-col items-center">
+                    <img src="img/napo-aniversario.png" alt="Noche Aniversario" class="momento-img w-64 h-64 object-cover rounded-2xl border-4 border-green-200 shadow-lg mb-4">
+                    <p class="text-green-700 text-center">Así se veia el cielo el dia que Napo y Mari se hicieron novios</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Momentos Section -->
+    <section id="momentos" class="min-h-screen py-20">
+        <div class="container">
+            <h2 class="font-dancing text-5xl text-center text-green-700 mb-12">Nuestros Momentos 🫡</h2>
+            <div class="max-w-4xl mx-auto grid grid-cols-2 grid-rows-4 gap-6">
+                <!-- Momento 1 (arriba izquierda) -->
+                <div class="momento-card bg-white border-2 border-green-300 rounded-xl shadow-lg flex flex-col justify-center items-center p-6">
+                    <h1 class="text-green-600 text-4xl md:text-5xl">Año 1</h1>
+                    <img src="img/año-1.jpg" id="momento-1" alt="Año 1" class="momento-img w-full h-32 object-cover rounded-md mb-4 border border-green-200">
+                    <p class="text-green-800 text-center font-semibold text-lg md:text-xl">Me acompañaste a mi graduación</p>
+                </div>
+                <div></div>
+                <!-- Momento 2 (segunda fila derecha) -->
+                <div></div>
+                <div class="momento-card bg-white border-2 border-green-300 rounded-xl shadow-lg flex flex-col justify-center items-center p-6">
+                    <h1 class="text-green-600 text-3xl md:text-4xl">Año 2</h1>
+                    <img src="img/año-2.jpg" id="momento-1" alt="Año 2" class="momento-img w-full h-32 object-cover rounded-md mb-4 border border-green-200">
+                    <p class="text-green-800 text-center font-semibold text-lg md:text-xl">Pizza party antes de tu mudanza a Lituania :(</p>
+                </div>
+                <!-- Momento 3 (tercera fila izquierda) -->
+                <div class="momento-card bg-white border-2 border-green-300 rounded-xl shadow-lg flex flex-col justify-center items-center p-6">
+                    <h1 class="text-green-600 text-3xl md:text-4xl">Año 3</h1>
+                    <img src="img/año-3.jpg" id="momento-1" alt="Año 3" class="momento-img w-full h-32 object-cover rounded-md mb-4 border border-green-200">
+                    <p class="text-green-800 text-center font-semibold text-lg md:text-xl">Nuestro segundo viaje a Miami juntos</p>
+                </div>
+                <div></div>
+                <!-- Momento 4 (abajo derecha) -->
+                <div></div>
+                <div class="momento-card bg-white border-2 border-green-300 rounded-xl shadow-lg flex flex-col justify-center items-center p-6">
+                    <h1 class="text-green-600 text-3xl md:text-4xl">Año 4</h1>
+                    <img src="img/año-4.jpg" id="momento-1" alt="Año 4" class="momento-img w-full h-32 object-cover rounded-md mb-4 border border-green-200">
+                    <p class="text-green-800 text-center font-semibold text-lg md:text-xl">Celebrando nuestro San Valentín juntos este 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Razones Section -->
+    <section id="razones" class="min-h-screen py-20 bg-white/50">
+        <div class="container">
+            <h2 class="font-dancing text-5xl text-center text-green-700 mb-12">Razones Por Las Que Te Amo 💝</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-6 col-lg-4">
+                    <div
+                        class="bg-gradient-to-br from-green-100 to-green-200 rounded-2xl p-6 shadow-lg h-100 border border-green-300">
+                        <div class="text-4xl mb-3">💚</div>
+                        <h4 class="text-green-800 font-semibold mb-2">Razón #1</h4>
+                        <p class="text-green-700">Porque sos hermosa</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div
+                        class="bg-gradient-to-br from-green-100 to-green-200 rounded-2xl p-6 shadow-lg h-100 border border-green-300">
+                        <div class="text-4xl mb-3">♥️</div>
+                        <h4 class="text-green-800 font-semibold mb-2">Razón #2</h4>
+                        <p class="text-green-700">Porque siempre me demostras que me amas y te preocupas por mi, me
+                            haces sentir especial</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4">
+                    <div
+                        class="bg-gradient-to-br from-green-100 to-green-200 rounded-2xl p-6 shadow-lg h-100 border border-green-300">
+                        <div class="text-4xl mb-3">💙</div>
+                        <h4 class="text-green-800 font-semibold mb-2">Razón #3</h4>
+                        <p class="text-green-700">Porque siempre me haces sentir escogido</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Memory Game Section -->
+    <section id="juego" class="min-h-screen py-20 bg-white/50">
+        <div class="container">
+            <h2 class="font-dancing text-5xl text-center text-green-700 mb-4">Juego de Memoria 🐶</h2>
+            <p class="text-center text-green-600 mb-8">Encuentra a los guau-guaus</p>
+
+            <!-- Game Stats -->
+            <div class="flex justify-center gap-8 mb-8">
+                <div class="bg-white rounded-xl px-6 py-3 shadow-md border-2 border-green-200">
+                    <span class="text-green-700 font-semibold">Movimientos: </span>
+                    <span id="moves-count" class="text-green-600 font-bold">0</span>
+                </div>
+                <div class="bg-white rounded-xl px-6 py-3 shadow-md border-2 border-green-200">
+                    <span class="text-green-700 font-semibold">Parejas: </span>
+                    <span id="pairs-count" class="text-green-600 font-bold">0</span>/6
+                </div>
+            </div>
+
+            <!-- Memory Game Board -->
+            <div class="memory-game-container">
+                <div id="memory-game" class="memory-game">
+                    <!-- Cards will be generated by JavaScript -->
+                </div>
+            </div>
+
+            <!-- Reset Button -->
+            <div class="text-center mt-8">
+                <button id="reset-game"
+                    class="btn btn-lg bg-green-600 hover:bg-green-700 text-green-100 px-8 py-3 rounded-full shadow-lg transform hover:scale-105 transition-all duration-300">
+                    Reiniciar Juego 🔄
+                </button>
+            </div>
+
+            <!-- Win Message -->
+            <div id="win-message" class="hidden mt-8 text-center">
+                <div
+                    class="bg-gradient-to-r from-green-100 to-green-200 rounded-3xl p-8 shadow-xl border-2 border-green-300 max-w-md mx-auto">
+                    <h3 class="font-dancing text-4xl text-green-700 mb-4">Guau! 🎉</h3>
+                    <p class="text-green-600 text-lg">Encontraste todas las parejas en <span id="final-moves"
+                            class="font-bold"></span> movimientos</p>
+                    <p class="text-green-500 mt-2">Te amoooooo 💚</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Carta Section -->
+    <section id="carta" class="min-h-screen py-20 flex items-center">
+        <div class="container">
+            <h2 class="font-dancing text-5xl text-center text-green-700 mb-12">Mi Carta Para Ti 💌</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="bg-white rounded-3xl shadow-2xl p-8 md:p-12 border-4 border-green-200 letter-paper">
+                        <p class="text-lg text-green-800 leading-relaxed font-poppins">
+                            Querida Mari,<br><br>
+                            Gracias por ser la mejor novia de este mundo. De verdad que no quisiera vivir esta aventura
+                            que tenemos juntos con nadie más; sos todo lo que quiero. Gracias por cuidarme siempre, por
+                            quererme tanto y por demostrarme tu amor todos los días. <br> <br>
+                            Sé que el camino no ha sido sencillo y que la distancia ha sido una prueba difícil, pero
+                            tengo la certeza de que juntos podemos contra todo. Me encanta la buena relación que existe
+                            entre nuestras familias, porque eso demuestra que compartimos los mismos valores y confirma
+                            lo compatibles que somos. Me encantas amor 🥺, te amo mucho y vamos por muchos años más
+                            juntos. Te hice esta página web con mucho amor y espero que te guste esta sorpresa.<br> <br>
+                            Con todo mi amor,<br>
+                            <span class="font-dancing text-3xl text-green-700">Napoleón Díaz Nuila</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-green-700 text-white py-8 text-center">
+        <div class="container">
+            <p class="font-dancing text-3xl mb-2">Te Amo 💚</p>
+            <p class="text-green-200">Regalo de San Valentín, Sábado 14 de febrero de 2026</p>
+        </div>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Custom JS -->
+    <script src="magic.js"></script>
+</body>
+
+</html>
